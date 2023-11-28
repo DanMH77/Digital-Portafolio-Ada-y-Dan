@@ -74,3 +74,9 @@ Rails.application.configure do
   # Raise error when a before_action's only/except options reference missing actions
   config.action_controller.raise_on_missing_callback_actions = true
 end
+
+#gem 'mailtrap'
+# config.action_mailer.delivery_method = :mailtrap
+# config.action_mailer.mailtrap_settings = {
+#   api_key: ENV.fetch('MAILTRAP_API_KEY')
+# }
